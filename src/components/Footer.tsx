@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
           {/* Logo and Address */}
           <div className="text-center md:text-left">
-            <h1 className="text-2xl font-bold">Faiz Therapy</h1>
+            <h1 className="text-2xl font-bold">The Faiz Therapy</h1>
             <p className="text-gray-400 mt-2">Banjarahills, Hyderabad</p>
           </div>
 

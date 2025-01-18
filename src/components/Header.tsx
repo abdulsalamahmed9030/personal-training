@@ -20,7 +20,7 @@ const Header: React.FC = () => {
     <header className="bg-white shadow-md fixed w-full z-50">
       <div className="container mx-auto px-4 flex justify-between items-center h-16">
         {/* Logo (Faiz Therapy) */}
-        <div className="text-xl font-bold">Faiz Therapy</div>
+        <div className="text-3xl font-bold">The Faiz Therapy</div>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8 relative">

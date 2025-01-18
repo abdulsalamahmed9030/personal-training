@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
+import { Navigation, Autoplay } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 
@@ -10,9 +10,10 @@ const HeroSection: React.FC = () => {
   return (
     <section className="w-full h-screen">
       <Swiper
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
         navigation
         loop={true}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
         className="w-full h-full"
       >
         <SwiperSlide>
@@ -22,10 +23,10 @@ const HeroSection: React.FC = () => {
           >
             <div className="text-center text-white bg-black bg-opacity-50 p-6 rounded-md max-w-2xl">
               <h1 className="text-3xl md:text-4xl font-bold">
-                Transform your fitness journey with Fitelo&apos;s strength &
+                Transform your fitness journey with The Faiz Therapy strength &
                 conditioning
               </h1>
-              <p className="mt-4 text-lg md:text-xl">
+              <p className="mt-4 text-lg md:text-xl text-green-600">
                 Fitness that fits your schedule, your goal, and your lifestyle
               </p>
             </div>
@@ -38,10 +39,10 @@ const HeroSection: React.FC = () => {
           >
             <div className="text-center text-white bg-black bg-opacity-50 p-6 rounded-md max-w-2xl">
               <h1 className="text-3xl md:text-4xl font-bold">
-                Finally, Personal Training that&apos;s more Convinient and less
+                Finally, Personal Training that&apos;s more convenient and less
                 expensive.
               </h1>
-              <p className="mt-4 text-lg md:text-xl">
+              <p className="mt-4 text-lg md:text-xl text-green-600">
                 Injury Rehabilitation Success and Personal Training
               </p>
             </div>
@@ -56,7 +57,7 @@ const HeroSection: React.FC = () => {
               <h1 className="text-3xl md:text-4xl font-bold">
                 Exercise Safety: Personal Training with Old Injuries
               </h1>
-              <p className="mt-4 text-lg md:text-xl">
+              <p className="mt-4 text-lg md:text-xl text-green-600">
                 Fitness that fits your schedule, your goal, and your lifestyle
               </p>
             </div>
